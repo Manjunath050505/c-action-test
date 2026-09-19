@@ -1,0 +1,17 @@
+# name you work flow
+
+name: My test worlkflow
+
+# define the triggered events
+on: [push]
+
+# jobs run in parallel by default 
+
+jobs: 
+
+      # jobs is to print something
+          say-hello:
+                runs-on: ubuntu-latest
+                steps: 
+                    - run: echo "hello, github action!"
+                      
