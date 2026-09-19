@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -name: say hello
-       run: echo "Hello, GitHub Actions!"
+      run: echo "Hello, GitHub Actions!"
 
   # Job to build and test our C code
   build-and-test:
